@@ -55,14 +55,14 @@ body {
 
 #main_visual {
     position: relative;
-    height: 600px;
+    height: 700px;
     background: url(../images/mainvisual01.jpg) no-repeat center center/cover;
 }
 
 #main_visual .slogan {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    bottom: 20%;
+    left: 40%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
