@@ -1,3 +1,8 @@
+.slick-track,
+.slick-list {
+    transition-delay: 0.03s;
+}
+
 #header {
     position: fixed;
 
@@ -9,16 +14,16 @@
 }
 
 #header.on {
-    background: #fff;
+    background: #111;
 }
 
 #header .inner {
-    color: #ddd;
+    color: #111;
     transition: 1.5s;
 }
 
 #header.on .inner {
-    color: #000;
+    color: #fff;
     height: 100px;
 }
 
@@ -39,7 +44,7 @@
     left: 50%;
     transform: translate(-50%, 0);
     width: 100px;
-    color: #000;
+    color: #111;
     border: 1px solid #ddd;
     background: #fff;
 
@@ -81,4 +86,156 @@
 
 #header .gnb>ul>li .sub li~li {
     border-top: 1px solid #ddd;
+}
+
+.itm {
+    height: 1000px;
+}
+
+.itm01 {
+
+    background: url(../images/js01.jpg)no-repeat center center/cover;
+}
+
+.itm02 {
+    background: url(../images/js02.jpg)no-repeat center center/cover;
+}
+
+.itm03 {
+    background: url(../images/js03.jpg)no-repeat center center/cover;
+}
+
+
+
+
+#mainVisual .slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+
+    background: transparent;
+    border: none;
+    outline: none;
+
+    font-size: 0;
+    width: 100px;
+    height: 100px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+#mainVisual .slick-prev {
+    margin: 0 0 0 -700px;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+#mainVisual .slick-next {
+    margin: 0 0 0 700px;
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+#mainVisual .slick-dots {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#mainVisual .slick-dots>* {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+#mainVisual .slick-dots button {
+    background: #ddd;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+#mainVisual .slick-dots li.slick-active button {
+    background: #333;
+}
+
+#product {
+    position: relative;
+    color: #fff;
+    padding: 150px;
+
+
+}
+
+#product .content {
+    max-width: 1200px;
+}
+
+#product .arrows {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1400px;
+    width: 100%;
+}
+
+#product .arrows i {
+    position: absolute;
+    top: 0;
+
+    padding: 10px;
+    color: #fff;
+    background: #111;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+#product .arrows .left {
+    left: 0;
+}
+
+#product .arrows .right {
+    right: 0;
+}
+
+.product_slide {
+    margin: 0 -15px;
+}
+
+.product_slide figure {
+    padding: 0 15px;
+}
+
+.product_slide .slick-dots {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.product_slide .slick-dots li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.product_slide .slick-dots li button {
+    font-size: 0;
+    color: #fff;
+    background: #333;
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.product_slide .slick-dots li.slick-active button {
+    background: #fff;
 }

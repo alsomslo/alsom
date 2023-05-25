@@ -11,11 +11,15 @@
     <link rel="stylesheet" href="../css/slick.css">
     <link rel="stylesheet" href="../css/basic.css">
     <link rel="stylesheet" href="../css/header01.css">
+    <link rel="stylesheet" href="../css/grid01.css">
+
 
     <script src="../js/jquery-1.12.4.min.js"></script>
     <script src="../js/slick.min.js"></script>
+    <script src="../js/main01.js"></script>
     <script src="../js/basic.js"></script>
     <script src="../js/header01.js"></script>
+    <script src="../js/textslide.js"></script>
 </head>
 
 <body>
@@ -24,13 +28,12 @@
             <div class="inner">
                 <h1>
                     <a href="#!">
-                        <img src="../images/" alt="">
+                        <img src="../images/logo01.png" alt="">
                     </a>
                 </h1>
                 <nav class="gnb">
                     <ul>
-                        <li>
-                            <a href="#!">menu01</a>
+                        <li><a href="#!">menu01</a>
                             <ul class="sub">
                                 <li><a href="">smenu</a></li>
                                 <li><a href="">smenu</a></li>
@@ -68,31 +71,193 @@
                     </ul>
                 </nav>
                 <div class="service">
-                    <i class="xi-bars"></i>
+                    <a href=""><i class="xi-bars"></i></a>
+                    <a href=""><i class="xi-search"></i></a>
                 </div>
             </div>
+
         </header>
         <main>
-            <section id="main_visual">
-                <div class="slogan inner">
-                    <h2>Lorem ipsum dolor sit amet consectetur</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias architecto dolorum, corrupti
-                        quae, recusandae ratione laudantium mollitia autem sint nisi itaque nobis et labore in magni ut
-                        quibusdam, modi neque.</p>
+            <section id="mainVisual">
+                <div class="mainSlide">
+                    <figure class="itm itm01"></figure>
+                    <figure class="itm itm02"></figure>
+                    <figure class="itm itm03"></figure>
+
                 </div>
             </section>
-            <section id="content">
-
+            <section id="product" class="sec">
+                <div class="tit inner">
+                    <h2>Our Models</h2>
+                    <p>역동적이면서도 우아한 디자인과 최첨단 기술을 탑재한 제네시스 브랜드의 라인업을 살펴보세요.</p>
+                </div>
+                <div class="content inner">
+                    <div class="product_slide">
+                        <figure>
+                            <div class="gs_box">
+                                <h2>G80</h2>
+                            </div>
+                            <img src="../images/g01.png" alt="">
+                        </figure>
+                        <figure>
+                            <div class="gs_box">
+                                <h2>G90</h2>
+                            </div>
+                            <img src="../images/g02.png" alt="">
+                        </figure>
+                        <figure>
+                            <div class="gs_box">
+                                <h2>G90</h2>
+                            </div>
+                            <img src="../images/g03.png" alt="">
+                        </figure>
+                        <figure>
+                            <div class="gs_box">
+                                <h2>G80</h2>
+                            </div>
+                            <img src="../images/g05.png" alt="">
+                        </figure>
+                        <figure>
+                            <div class="gs_box">
+                                <h2>G70</h2>
+                            </div>
+                            <img src="../images/g06.png" alt="">
+                        </figure>
+                        <figure>
+                            <div class="gs_box">
+                                <h2>GV80</h2>
+                            </div>
+                            <img src="../images/suv80.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="arrows">
+                        <i class="xi-arrow-left left"></i>
+                        <i class="xi-arrow-right right"></i>
+                    </div>
+                </div>
             </section>
-        </main>
-        <footer id="footer" class="footer">
+            <section class="sec sc">
+                <div class="inner con">
+                    <figure>
+                        <div class="box">
+                            <h2>G70</h2>
+                            <img src="../images/g70.png" alt="">
+                        </div>
+                        <div class="ggl">
+                            <h2>제네시스 G70 2023년식</h2>
+
+                            <p>가격 4,315~5,065만원 </p>
+                            <p>연료 가솔린/</p>
+                            <p>연비 복합 8.8~11.2km/ℓ 도심 7.8~10, 고속 10.6~13.1</p>
+                            <p>출력 304~370hp 엔진</p>
+                            <p>엔진 I4, V6 트윈터보</p>
+                        </div>
+
+                        <div class="cover">
+                            <div class="purchase">
+                                <ul>
+                                    <li><a href="#!">견적내기</a></li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </figure>
+
+                    <figure>
+                        <div class="box">
+                            <h2>G80</h2>
+                            <img src="../images/g80.png" alt="">
+                            <div class="ggl">
+                                <h2>제네시스 G80 2023년식</h2>
+                                <p> 가격5,507~6,457만원</p>
+                                <p>연료 가솔린/</p>
+                                <p>연비 복합 8.4~10.8km/ℓ 도심 7.3~9.5, 고속 10.3~13</p>
+                                <p>출력 304~380hp 엔진</p>
+
+                                <p>엔진 I4, V6 트윈터보</p>
+                            </div>
+                            <div class="cover">
+                                <div class="purchase">
+                                    <ul>
+                                        <li><a href="#!">견적내기</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="box">
+                            <h2>G90</h2>
+                            <img src="../images/g90.png" alt="">
+                            <div class="ggl">
+                                <h2>제네시스 G90 2023년식</h2>
+                                <p>가격 9,407~10,357만원</p>
+                                <p>연료 가솔린</p>
+                                <p>연비 복합 8.4~9.3km/ℓ 도심 7.3~8, 고속 10.3~11.5</p>
+                                <p>출력 380~415hp 엔진</p>
+                                <p>엔진 V6 트윈터보</p>
+                            </div>
+                            <div class="cover">
+                                <div class="purchase">
+                                    <ul>
+                                        <li><a href="#!">견적내기</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="box">
+                            <h2>Gv80</h2>
+                            <img src="../images/gv80.png" alt="">
+                            <div class="ggl">
+                                <h2>제네시스 G80 2023년식</h2>
+                                <p>가격 6,430~7,360만원</p>
+                                <p>연료 가솔린, 디젤</p>
+                                <p>연비 복합 8~11.7km/ℓ 도심 7.1~10.4, 고속 9.3~13.7</p>
+                                <p>출력 273~380hp 엔진</p>
+                                <p>엔진 I4, I6, V6 트윈터보</p>
+                            </div>
+                            <div class="cover">
+                                <div class="purchase">
+                                    <ul>
+                                        <li><a href="#!">견적내기</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+    </div>
+
+    </main>
+    <footer id="footer" class="footer">
+        <div class="top">
             <div class="inner">
-                &copy; moon sun woo
+                <ul class="link">
+                    <li><a href="">사이트맵</a></li>
+                    <li><a href="">이용약관</a></li>
+                    <li class="b"><a href="">개인정보 처리방침</a></li>
+                    <li><a href="">저작권 안내</a></li>
+                    <li><a href="">보증안내</a></li>
+                    <li><a href="">자동차 교환 및 환불 중재 규정 안내</a></li>
+                    <li><a href="">하자 재발 통보 안내</a></li>
+                </ul>
             </div>
-        </footer>
-        <div class="to_top">
-            <i class="xi-arrow-up"></i>
         </div>
+        <div class="bottom">
+            <div class="inner">
+                <div class="b_link">
+                    <img src="../images/logo01.png" alt="">
+                    <p>© Copyright 2023 Hyundai Motor Company.</p>
+                    <p>All Rights Reserved.</p>
+                </div>
+            </div>
+    </footer>
+    <div class="to_top">
+        <i class="xi-arrow-up"></i>
+    </div>
     </div>
 </body>
 

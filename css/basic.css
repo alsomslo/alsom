@@ -28,11 +28,11 @@ body {
     min-height: 150vh;
 }
 
-.wrap {}
-
-#header {
-    border-bottom: 1px solid #ddd;
+.wrap {
+    background: #111;
 }
+
+#header {}
 
 #header .inner {
     display: flex;
@@ -53,34 +53,6 @@ body {
     margin: 0 0 0 50px;
 }
 
-#main_visual {
-    position: relative;
-    height: 700px;
-    background: url(../images/mainvisual01.jpg) no-repeat center center/cover;
-}
-
-#main_visual .slogan {
-    position: absolute;
-    bottom: 20%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-}
-
-#main_visual .slogan h2 {
-    margin: 0 0 10px 0;
-    color: #fff;
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-shadow: 0 0 3px #000;
-}
-
-#main_visual .slogan p {
-    color: #fff;
-    font-size: 15px;
-    text-shadow: 0 0 3px #000;
-}
 
 
 
@@ -90,10 +62,48 @@ body {
 
 #footer {
     padding: 50px 0;
-    background: #333;
-    color: #fff;
-    text-align: center;
+
+    background: #111;
+    color: #ffffff60;
 }
+
+#footer .inner {
+    top: 50%;
+    left: 50%;
+    line-height: 20px;
+    max-width: 1200px;
+
+    text-align: center;
+
+}
+
+#footer .top {
+    border-bottom: 1px solid #111;
+
+}
+
+#footer .top ul {
+
+    display: flex;
+
+
+}
+
+#footer .top .link li {
+    border-left: #ffffff60;
+    padding: 0 15px 20px 0;
+}
+
+#footer .b_link img {
+    margin: 20px 0 20px 0;
+}
+
+#footer .top .link .b {
+    color: #f9f9f9;
+    font-weight: 500;
+}
+
+
 
 
 
@@ -110,7 +120,7 @@ body {
 }
 
 .to_top i {
-    background: tomato;
+    background: #333;
     color: #fff;
     font-size: 20px;
     padding: 10px;
