@@ -28,16 +28,21 @@ body {
     min-height: 150vh;
 }
 
-.wrap {
-    background: #111;
-}
+.wrap {}
 
-#header {}
+#header {
+    border-bottom: 1px solid #ddd;
+}
 
 #header .inner {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     height: 100px;
+    line-height: 100px;
+}
+
+#header a {
+    display: block;
 }
 
 #header .gnb {
@@ -53,6 +58,34 @@ body {
     margin: 0 0 0 50px;
 }
 
+#main_visual {
+    position: relative;
+    height: 600px;
+    background: url(../images/mainvisual01.jpg) no-repeat center center/cover;
+}
+
+#main_visual .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+#main_visual .slogan h2 {
+    margin: 0 0 10px 0;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px #000;
+}
+
+#main_visual .slogan p {
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 0 0 3px #000;
+}
 
 
 
@@ -62,50 +95,10 @@ body {
 
 #footer {
     padding: 50px 0;
-
-    background: #111;
-    color: #ffffff60;
-}
-
-#footer .inner {
-    top: 50%;
-    left: 50%;
-    line-height: 20px;
-    max-width: 1200px;
-
+    background: #333;
+    color: #fff;
     text-align: center;
-
 }
-
-#footer .top {
-    border-bottom: 1px solid #111;
-
-}
-
-#footer .top ul {
-
-    display: flex;
-
-
-}
-
-#footer .top .link li {
-    border-left: #ffffff60;
-    padding: 0 15px 20px 0;
-}
-
-#footer .b_link img {
-    margin: 20px 0 20px 0;
-}
-
-#footer .top .link .b {
-    color: #f9f9f9;
-    font-weight: 500;
-}
-
-
-
-
 
 
 
@@ -120,7 +113,7 @@ body {
 }
 
 .to_top i {
-    background: #333;
+    background: tomato;
     color: #fff;
     font-size: 20px;
     padding: 10px;
