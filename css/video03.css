@@ -15,33 +15,33 @@ p {
 
 
 
-#main_content {
+.mainlink {
     padding: 100px 0;
 }
 
-#main_content h2 {
+.mainlink h2 {
     font-size: 30px;
     font-weight: 700;
     margin: 0 0 18px 0;
 
 }
 
-#main_content p {
+.mainlink p {
     line-height: 20px;
 }
 
-#main_content .tit {
+.mainlink .tit {
     margin: 0 auto 40px auto;
 }
 
 /* 반응형 */
-#main_content .content {
+.mainlink .content {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-#main_content .content>* {
+.mainlink .content>* {
     flex: 1 0 350px;
 }
 
